@@ -1,7 +1,18 @@
 package com.example;
 
 public class App {
-    public int add(int a, int b) {
-        return a + b;
+    public String mark(int m) {
+        if(m>=90)
+        {
+            return "S grade" ;
+        }
+        else if(m>=80)
+        {
+            return "A grade" ;
+        }
+        else
+        {
+            return "B grade";
+        }
     }
 }
