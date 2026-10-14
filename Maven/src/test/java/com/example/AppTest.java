@@ -5,8 +5,8 @@ import static org.junit.Assert.*;
 
 public class AppTest {
     @Test
-    public void testAdd() {
+    public void testMark() {
         App app = new App();
-        assertEquals(5, app.add(2, 3));
+        assertEquals("S grade", app.mark(90));
     }
 }
